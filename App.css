@@ -1,0 +1,103 @@
+.App {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .App-header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px; /* Ensure it does not stretch too wide */
+  }
+  
+  .main-title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000; /* Black color */
+    margin: 0;
+  }
+  
+  .store-description {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000; /* Black color */
+    margin: 10px 0;
+  }
+  
+  .intro {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .brands-section {
+    margin: 20px 0;
+  }
+  
+  .brands-title {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .brands-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .brand {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .brand img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Change brand names and details to black */
+  .brand h2,
+  .brand p {
+    color: #000000;
+  }
+  
+  .order-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    margin: 20px 0;
+  }
+  
+  .contact-info p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  /* Change the last line text color to blue */
+  .order-message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #0000ff; /* Blue color */
+  }
+  
